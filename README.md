@@ -1,2 +1,0 @@
-# historysmartie.github.io
-WEBTEST
