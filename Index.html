@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Smartie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>History Smartie</h1>
+    </header>
+
+    <main>
+        <section id="post-form">
+            <h2>Post a Message</h2>
+            <form id="messageForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Post</button>
+            </form>
+        </section>
+
+        <section id="forum">
+            <h2>Forum</h2>
+            <div id="posts">
+                <!-- Posts will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
